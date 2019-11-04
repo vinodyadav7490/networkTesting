@@ -12,3 +12,9 @@ RouteScale:
       128: 100
   vrfCount: 1
   RoutingProtocol: 'bgp'
+  ExcludeIprange:
+    v4: '172.16.0.0/12, 10.80.0.0/14' # this is for 172.16.0.0/12
+    v6: '' # empty means none
+  StartIpPrefix:
+    v4: ''
+    v6: ''
